@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "task-tracker-backend"
+version = "0.1.0"
+description = "Task Tracker Backend API"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "5.2.7"
+djangorestframework = "3.14.0"
+django-cors-headers = "3.14.0"
+python-dotenv = "1.0.0"
+gunicorn = "21.2.0"
+whitenoise = "6.6.0"
+dj-database-url = "2.1.0"
+psycopg2-binary = "2.9.9"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
